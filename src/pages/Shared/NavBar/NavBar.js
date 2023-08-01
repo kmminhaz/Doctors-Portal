@@ -27,51 +27,48 @@ const NavBar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Item 1</a>
+                <a>Home</a>
               </li>
               <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <a>About</a>
               </li>
               <li>
-                <a>Item 3</a>
+                <a>Appointment</a>
+              </li>
+              <li>
+                <a>Reviews</a>
+              </li>
+              <li>
+                <a>Contact Us</a>
+              </li>
+              <li>
+                <a>Login</a>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a className="btn btn-ghost normal-case text-xl">Doctors-Portal</a>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+        <div className="navbar-end hidden lg:flex">
+          <ul className="menu menu-horizontal px-0">
             <li>
-              <a>Item 1</a>
-            </li>
-            <li tabIndex={0}>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+              <a>Home</a>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>About</a>
+            </li>
+            <li>
+              <a>Appointment</a>
+            </li>
+            <li>
+              <a>Reviews</a>
+            </li>
+            <li>
+              <a>Contact Us</a>
+            </li>
+            <li>
+              <a>Login</a>
             </li>
           </ul>
-        </div>
-        <div className="navbar-end">
-          <a className="btn bg-black text-zinc-50">Button</a>
         </div>
       </div>
     </div>
