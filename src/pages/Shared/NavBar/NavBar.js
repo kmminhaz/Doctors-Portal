@@ -1,6 +1,29 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
+  const menuItems = (
+    <>
+      <li>
+        <Link to="/">Home</Link>
+      </li>
+      <li>
+        <Link to="/appointment">Appointment</Link>
+      </li>
+      <li>
+        <Link to="/about">About</Link>
+      </li>
+      <li>
+        <Link to="/reviews">Reviews</Link>
+      </li>
+      <li>
+        <Link to="/Contact">Contact Us</Link>
+      </li>
+      <li>
+        <Link to="/login">Login</Link>
+      </li>
+    </>
+  );
   return (
     <div>
       <div className="navbar bg-base-100">
@@ -26,48 +49,14 @@ const NavBar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li>
-                <a>Home</a>
-              </li>
-              <li>
-                <a>About</a>
-              </li>
-              <li>
-                <a>Appointment</a>
-              </li>
-              <li>
-                <a>Reviews</a>
-              </li>
-              <li>
-                <a>Contact Us</a>
-              </li>
-              <li>
-                <a>Login</a>
-              </li>
+              {menuItems};
             </ul>
           </div>
           <a className="btn btn-ghost normal-case text-xl">Doctors-Portal</a>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-0">
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>About</a>
-            </li>
-            <li>
-              <a>Appointment</a>
-            </li>
-            <li>
-              <a>Reviews</a>
-            </li>
-            <li>
-              <a>Contact Us</a>
-            </li>
-            <li>
-              <a>Login</a>
-            </li>
+            {menuItems};
           </ul>
         </div>
       </div>

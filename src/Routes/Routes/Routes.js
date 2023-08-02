@@ -3,6 +3,10 @@ import Main from "../../Layout/Main";
 import Home from "../../pages/HomePage/Home/Home";
 import LoginPage from "../../pages/Login/LoginPage";
 import SignUp from "../../pages/Login/SignUp";
+import Appointment from "../../pages/Appointment/Appointment";
+import About from "../../pages/About/About";
+import Reviews from "../../pages/Reviews/Reviews";
+import Contact from "../../pages/Contact/Contact";
 
 const router = createBrowserRouter([
   {
@@ -14,12 +18,28 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
+        path: "/appointment",
+        element: <Appointment></Appointment>,
+      },
+      {
+        path: "/about",
+        element: <About></About>,
+      },
+      {
+        path: "/reviews",
+        element: <Reviews></Reviews>,
+      },
+      {
+        path: "/Contact",
+        element: <Contact></Contact>,
+      },
+      {
         path: "/login",
         element: <LoginPage></LoginPage>,
       },
       {
         path: "/signup",
-        element: <SignUp></SignUp>
+        element: <SignUp></SignUp>,
       },
     ],
   },
