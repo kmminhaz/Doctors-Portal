@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={Chair}
-            className="max-w-lg rounded-lg shadow-2xl"
+            className="max-w-xl rounded-xl shadow-2xl shadow-sm shadow-md"
           />
           <div>
             <h1 className="text-5xl font-bold">Box Office News!</h1>

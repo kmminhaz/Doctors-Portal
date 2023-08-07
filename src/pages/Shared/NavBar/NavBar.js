@@ -49,14 +49,14 @@ const NavBar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-              {menuItems};
+              {menuItems}
             </ul>
           </div>
           <a className="btn btn-ghost normal-case text-xl">Doctors-Portal</a>
         </div>
         <div className="navbar-end hidden lg:flex">
-          <ul className="menu menu-horizontal px-0">
-            {menuItems};
+          <ul className="menu menu-horizontal">
+            {menuItems}
           </ul>
         </div>
       </div>
