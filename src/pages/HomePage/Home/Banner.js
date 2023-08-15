@@ -3,8 +3,8 @@ import Chair from '../../../assets/images/chair.png'
 
 const Banner = () => {
     return (
-      <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="hero min-h-screen">
+        <div className="hero-content sm:flex-col lg:flex-row-reverse">
           <img
             src={Chair}
             className="max-w-xl rounded-xl shadow-2xl shadow-sm shadow-md"
@@ -16,7 +16,9 @@ const Banner = () => {
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="text-white text-bold btn bg-gradient-to-r from-secondary to-primary">
+              Get Started
+            </button>
           </div>
         </div>
       </div>
