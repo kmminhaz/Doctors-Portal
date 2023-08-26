@@ -3,7 +3,7 @@ import footerBG from '../../../assets/images/footer_cvt.png'
 const Footer = () => {
     return (
       <footer
-        style={{ background: `URL(${footerBG})`, backgroundSize: "contain" }}
+        style={{ background: `URL(${footerBG})`, backgroundSize: "cover" }}
         className="lg:footer-center"
       >
         <div className="footer p-5">

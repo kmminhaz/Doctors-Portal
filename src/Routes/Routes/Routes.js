@@ -5,8 +5,8 @@ import LoginPage from "../../pages/Login/LoginPage";
 import SignUp from "../../pages/Login/SignUp";
 import Appointment from "../../pages/Appointment/Appointment";
 import About from "../../pages/About/About";
-import Reviews from "../../pages/Reviews/Reviews";
 import Contact from "../../pages/Contact/Contact";
+import Reviews from "../../pages/Reviews/Reviews";
 
 const router = createBrowserRouter([
   {
