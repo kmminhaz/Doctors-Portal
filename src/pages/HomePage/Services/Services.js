@@ -6,7 +6,7 @@ import Whitening from "../../../assets/images/whitening.png"
 
 const Services = () => {
   return (
-    <div className="my-20">
+    <div className="my-20 px-10">
       <div className="text-center">
         <h3 className="font-bold text-primary">OUR SERVIES</h3>
         <h1 className="my-2 text-2xl">Services We Provide</h1>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const menuItems = (
@@ -26,7 +26,7 @@ const NavBar = () => {
   );
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -47,7 +47,7 @@ const NavBar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52"
             >
               {menuItems}
             </ul>
@@ -55,9 +55,7 @@ const NavBar = () => {
           <a className="btn btn-ghost normal-case text-xl">Doctors-Portal</a>
         </div>
         <div className="navbar-end hidden lg:flex">
-          <ul className="menu menu-horizontal">
-            {menuItems}
-          </ul>
+          <ul className="menu menu-horizontal">{menuItems}</ul>
         </div>
       </div>
     </div>
